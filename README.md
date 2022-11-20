@@ -2,6 +2,8 @@
 
 So you can use kysely with d1 outside of cloudflare workers.
 
+> **Warning**: This is just a proof of concept. See discussion at https://github.com/aidenwallis/kysely-d1/issues/7 for more info.
+
 ```ts
 export interface BlogPostsTable {
   Slug: ColumnType<string>;
